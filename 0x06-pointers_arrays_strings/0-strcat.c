@@ -7,9 +7,9 @@
  * @src: second string
  * Return: pointer to designated string
  */
-int main(void)
+
+char *_strcat(char *dest, char *src)
 {
-	char *_strcat(char *dest, char *src)
 	int length, j;
 
 	length = 0;
